@@ -468,13 +468,18 @@
                 "Accept": "Accept",
                 "ApplyDamage": "Apply Damage",
                 "ApplyHealing": "Apply Healing",
+                "ApplyHealingTo": "Apply Healing To",
+                "BypassStamina": "BypassStamina",
                 "DamageAndAHalf": "1.5x Damage",
                 "DoubleDamage": "Double Damage",
+                "HP": "HP (default)",
+                "HPAndSP": "Both HP and SP",
                 "HalfDamage": "Half Damage",
                 "ModifyDamage": "Modify Damage",
                 "ModifyDamageText": "Input an number to modify the damage amount by. This is applied after any multiplication.",
                 "NoDamageModifier": "No damage modifier applied.",
-                "NoToken": "Cannot apply: No token selected!"
+                "NoToken": "Cannot apply: No token selected!",
+                "SP": "SP"
             },
             "ItemAction": {
                 "Check": "Check",
@@ -776,6 +781,8 @@
                     "Or": "o"
                 },
                 "Piercing": "Perforante",
+                "PrimaryDamageSection": "Primary Damage Section",
+                "PrimaryDamageSectionTooltip": "Modifiers that affect this weapon's damage will only apply to the primary damage section. Non-primary sections will simply roll their formula. A weapon must have exactly one primary damage section.",
                 "Radiation": "Radiazione",
                 "Slashing": "Tagliente",
                 "Sonic": "Sonico",
