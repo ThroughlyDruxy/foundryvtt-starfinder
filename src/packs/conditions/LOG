@@ -1,5 +1,5 @@
-2023/09/07-14:05:43.446 4c28 Recovering log #3
-2023/09/07-14:05:43.447 4c28 Level-0 table #5: started
-2023/09/07-14:05:44.164 4c28 Level-0 table #5: 34035 bytes OK
-2023/09/07-14:05:44.870 4c28 Delete type=0 #3
-2023/09/07-14:05:44.871 4c28 Delete type=3 #2
+2024/05/08-20:00:31.254 381c Recovering log #3
+2024/05/08-20:00:31.255 381c Level-0 table #5: started
+2024/05/08-20:00:31.260 381c Level-0 table #5: 34035 bytes OK
+2024/05/08-20:00:31.266 381c Delete type=0 #3
+2024/05/08-20:00:31.266 381c Delete type=3 #2
