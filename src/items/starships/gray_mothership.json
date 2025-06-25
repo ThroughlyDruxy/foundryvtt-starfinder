@@ -3,22 +3,22 @@
   "name": "Gray Mothership",
   "type": "starship",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/starfighter.svg",
   "items": [
     {
       "_id": "6t1FubPcblHxJwn2",
       "name": "New StarshipFrame",
       "type": "starshipFrame",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/hexagonal-nut.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -56,7 +56,7 @@
         "modifiers": [],
         "pcu": null,
         "size": "gargantuan",
-        "source": "AP#27, p. 51",
+        "source": "AP #27 pg. 51",
         "weaponMounts": {
           "aft": {
             "capitalSlots": 0,
@@ -96,11 +96,11 @@
       "name": "G4 thrusters",
       "type": "starshipThruster",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/rocket-thruster.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -128,6 +128,7 @@
         "pcu": 120,
         "pilotingModifier": 2,
         "source": "CRB pg. 297",
+        "specialMaterials": {},
         "speed": 4,
         "supportedSize": "gargantuan"
       }
@@ -137,11 +138,11 @@
       "name": "Heavy Shields 280",
       "type": "starshipShield",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/forward-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -179,11 +180,11 @@
       "name": "Repulsor",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -279,6 +280,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 0,
         "weaponType": "direct"
       }
@@ -288,11 +290,11 @@
       "name": "Stasis beam",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -388,6 +390,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 0,
         "weaponType": "direct"
       }
@@ -397,11 +400,11 @@
       "name": "Stasis beam",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -497,6 +500,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 0,
         "weaponType": "direct"
       }
@@ -506,11 +510,11 @@
       "name": "Gateway Light",
       "type": "starshipPowerCore",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/power-generator.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -535,6 +539,7 @@
         "modifiers": [],
         "pcu": 300,
         "source": "CRB pg. 296",
+        "specialMaterials": {},
         "supportedSizes": [
           "large",
           "huge",
@@ -547,11 +552,11 @@
       "name": "Signal Booster",
       "type": "starshipDriftEngine",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/star-gate.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -585,11 +590,11 @@
       "name": "Advanced long-range sensors",
       "type": "starshipSensor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/radar-dish.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -615,7 +620,8 @@
         "modifiers": [],
         "pcu": null,
         "range": "long",
-        "source": "CRB pg. 301"
+        "source": "CRB pg. 301",
+        "specialMaterials": {}
       }
     },
     {
@@ -623,11 +629,11 @@
       "name": "Luxurious crew quarters",
       "type": "starshipCrewQuarter",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bunk-beds.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -659,11 +665,11 @@
       "name": "Mk 5 defenses",
       "type": "starshipDefensiveCountermeasure",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bubble-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -688,6 +694,7 @@
         "modifiers": [],
         "pcu": 4,
         "source": "CRB pg. 297",
+        "specialMaterials": {},
         "targetLockBonus": 5
       }
     },
@@ -696,11 +703,11 @@
       "name": "Mk 2 trinode",
       "type": "starshipComputer",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/server-rack.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -734,11 +741,11 @@
       "name": "Emergency accelerator",
       "type": "starshipSecuritySystem",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cctv-camera.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -757,7 +764,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>This system allows a starship to rapidly accelerate to a speed that makes combat between starships no longer possible. A starship that successfully engages an emergency accelerator escapes any battle it is in. To accomplish this, the emergency accelerator draws on power from across the starshipâ€™s many systems, making the starship highly vulnerable for a short period before the acceleration takes effect. An emergency accelerator cannot be activated if the power core or engines have any critical damage conditions; if these systems gain such a condition while the accelerator is active, the accelerator shuts off.</p>\n<p>The engineer can activate an emergency accelerator as a crew action during the engineering phase. For the rest of the round, the ship has no shields and cannot fire weapons. If the emergency accelerator is still active at the end of the gunnery phase, the ship immediately moves 100 hexes in a straight line in any direction, which ends the starship combat and allows the vessel to escape. After using an emergency accelerator, the shipâ€™s power core gains the glitching critical damage condition and must be repaired before the accelerator can be used again.</p>"
+          "value": "<p>This system allows a starship to rapidly accelerate to a speed that makes combat between starships no longer possible. A starship that successfully engages an emergency accelerator escapes any battle it is in. To accomplish this, the emergency accelerator draws on power from across the starship’s many systems, making the starship highly vulnerable for a short period before the acceleration takes effect. An emergency accelerator cannot be activated if the power core or engines have any critical damage conditions; if these systems gain such a condition while the accelerator is active, the accelerator shuts off.</p>\n<p>The engineer can activate an emergency accelerator as a crew action during the engineering phase. For the rest of the round, the ship has no shields and cannot fire weapons. If the emergency accelerator is still active at the end of the gunnery phase, the ship immediately moves 100 hexes in a straight line in any direction, which ends the starship combat and allows the vessel to escape. After using an emergency accelerator, the ship’s power core gains the glitching critical damage condition and must be repaired before the accelerator can be used again.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -770,11 +777,11 @@
       "name": "Cargo hold",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -793,7 +800,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GMâ€™s discretion.</p>"
+          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GM’s discretion.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -806,11 +813,11 @@
       "name": "Cargo hold",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -829,7 +836,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GMâ€™s discretion.</p>"
+          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GM’s discretion.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -842,11 +849,11 @@
       "name": "Cargo hold",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -865,7 +872,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GMâ€™s discretion.</p>"
+          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GM’s discretion.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -878,11 +885,11 @@
       "name": "Cargo hold",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -901,7 +908,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GMâ€™s discretion.</p>"
+          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GM’s discretion.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -914,11 +921,11 @@
       "name": "Cargo hold",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -937,7 +944,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GMâ€™s discretion.</p>"
+          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GM’s discretion.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -950,11 +957,11 @@
       "name": "Cargo hold",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -973,7 +980,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GMâ€™s discretion.</p>"
+          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GM’s discretion.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -986,11 +993,11 @@
       "name": "Hanger bay",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1021,12 +1028,15 @@
   "prototypeToken": {
     "name": "Gray Mothership",
     "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
       "attribute": "attributes.shields"
     },
+    "detectionModes": [],
     "displayBars": 20,
     "displayName": 20,
     "disposition": 0,
@@ -1051,15 +1061,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
-    "mirrorX": false,
-    "mirrorY": false,
+    "movementAction": null,
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
-    "scale": 1,
     "sight": {
       "angle": 360,
       "attenuation": 0.1,
@@ -1072,12 +1098,23 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
-      "tint": null
+      "src": "systems/sfrpg/icons/default/starfighter.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 1
   },

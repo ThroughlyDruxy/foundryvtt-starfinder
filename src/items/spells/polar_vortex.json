@@ -3,9 +3,9 @@
   "name": "Polar Vortex",
   "type": "spell",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
   "img": "systems/sfrpg/icons/spells/polar_vortex.webp",
   "system": {
@@ -23,11 +23,13 @@
     },
     "allowedClasses": {
       "myst": true,
+      "precog": false,
       "tech": false,
       "wysh": true
     },
     "area": {
       "effect": "",
+      "shapable": false,
       "shape": "cylinder",
       "units": "ft",
       "value": 20
@@ -102,8 +104,12 @@
       "mode": "",
       "prepared": false
     },
+    "properties": {},
     "range": {
-      "units": "medium"
+      "additional": "",
+      "per": "",
+      "units": "medium",
+      "value": null
     },
     "rollNotes": "",
     "save": {

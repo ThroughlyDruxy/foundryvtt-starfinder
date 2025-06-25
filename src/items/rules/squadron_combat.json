@@ -1,6 +1,12 @@
 {
   "_id": "xy9ub6sNWUrfaxP1",
   "name": "Squadron Combat",
+  "_stats": {
+    "coreVersion": 13,
+    "systemId": "sfrpg",
+    "systemVersion": "0.28.1"
+  },
+  "categories": [],
   "folder": "af3VzPTGTZOlzRqF",
   "pages": [
     {
@@ -8,13 +14,17 @@
       "name": "Squadron Combat Introduction",
       "type": "text",
       "_stats": {
-        "coreVersion": "11.314",
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": 1699271830896,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": "Ze895EIq7nm5kMrK",
         "modifiedTime": 1699271930390,
         "systemId": "sfrpg",
         "systemVersion": "0.25.2"
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
@@ -42,13 +52,17 @@
       "name": "Building a Squadron",
       "type": "text",
       "_stats": {
-        "coreVersion": "11.314",
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": 1699271958568,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": "Ze895EIq7nm5kMrK",
         "modifiedTime": 1699273027021,
         "systemId": "sfrpg",
         "systemVersion": "0.25.2"
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
@@ -76,13 +90,17 @@
       "name": "Squadron Options",
       "type": "text",
       "_stats": {
-        "coreVersion": "11.314",
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": 1699273034561,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": "Ze895EIq7nm5kMrK",
         "modifiedTime": 1699273881680,
         "systemId": "sfrpg",
         "systemVersion": "0.25.2"
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {

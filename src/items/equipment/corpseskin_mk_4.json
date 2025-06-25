@@ -3,9 +3,9 @@
   "name": "Corpseskin, Mk 4",
   "type": "augmentation",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
   "img": "icons/commodities/biological/hand-clawed-blue.webp",
   "system": {
@@ -23,6 +23,7 @@
     },
     "area": {
       "effect": "",
+      "shapable": false,
       "shape": "",
       "units": "",
       "value": 0
@@ -77,6 +78,7 @@
     },
     "equippable": false,
     "equipped": false,
+    "equippedBulkMultiplier": 1,
     "formula": "",
     "identified": true,
     "isActive": null,
@@ -144,6 +146,7 @@
       }
     ],
     "price": 350000,
+    "properties": {},
     "quantity": 1,
     "quantityPerPack": 1,
     "range": {

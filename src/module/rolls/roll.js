@@ -1,3 +1,5 @@
+import { DiceSFRPG } from "../dice.js";
+const { terms, Roll } = foundry.dice;
 // Documentation typedefs
 /**
  * A data structure for outputing any metadata that is rendered at the bottom
@@ -7,8 +9,6 @@
  * @property {string} tag Text that will be addeded as a class on an HTMLElement
  * @property {string} text The text rendered on the card.
  */
-
-import { DiceSFRPG } from "../dice.js";
 
 /**
  * A structure for passing data into an HTML for for use in data- attributes.
@@ -49,7 +49,6 @@ export default class SFRPGRoll extends Roll {
      * @type {string}
      */
     get simplifiedFormula() {
-        const terms = foundry.dice.terms;
         if (this._evaluated) return this.formula;
         const newterms = this.terms.map(t => {
             if (t instanceof terms.OperatorTerm || t instanceof terms.StringTerm) return t;
@@ -116,7 +115,7 @@ export default class SFRPGRoll extends Roll {
     /** @override */
     async render(chatOptions = {}) {
         chatOptions = foundry.utils.mergeObject({
-            user: game.user.id,
+            author: game.user.id,
             flavor: null,
             template: this.constructor.CHAT_TEMPLATE,
             blind: false
@@ -134,7 +133,7 @@ export default class SFRPGRoll extends Roll {
         const chatData = {
             formula: isPrivate ? "???" : this.formula,
             flavor: isPrivate ? null : chatOptions.flavor,
-            user: chatOptions.user,
+            author: chatOptions.user,
             tooltip: isPrivate ? "" : await this.getTooltip(),
             customTooltip: chatOptions.customTooltip,
             total: isPrivate ? "?" : Math.round(this.total * 100) / 100,
@@ -145,7 +144,7 @@ export default class SFRPGRoll extends Roll {
         };
 
         // Render the roll display template
-        return renderTemplate(chatOptions.template, chatData);
+        return foundry.applications.handlebars.renderTemplate(chatOptions.template, chatData);
     }
 
     /**

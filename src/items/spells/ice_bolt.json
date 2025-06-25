@@ -3,9 +3,9 @@
   "name": "Ice Bolt",
   "type": "spell",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
   "img": "systems/sfrpg/icons/spells/etheric_shards.webp",
   "system": {
@@ -23,11 +23,13 @@
     },
     "allowedClasses": {
       "myst": false,
+      "precog": false,
       "tech": false,
       "wysh": true
     },
     "area": {
       "effect": "burst",
+      "shapable": false,
       "shape": "line",
       "units": "ft",
       "value": 50
@@ -117,6 +119,7 @@
       "mode": "",
       "prepared": false
     },
+    "properties": {},
     "range": {
       "additional": "",
       "per": "",

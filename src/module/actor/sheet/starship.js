@@ -43,7 +43,7 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
         this._getCrewData(data);
 
         // Encrich text editors
-        data.enrichedDescription = await TextEditor.enrichHTML(this.actor.system.details.notes, {
+        data.enrichedDescription = await foundry.applications.ux.TextEditor.enrichHTML(this.actor.system.details.notes, {
             async: true,
             rollData: this.actor.getRollData() ?? {}
         });
@@ -545,7 +545,7 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
 
         const handler = ev => this._onDragCrewStart(ev);
         html.find('li.crew').each((i, li) => {
-            li.setAttribute("draggable", true);
+            li.setAttribute("draggable", !this.actor.system.crew.useNPCCrew);
             li.addEventListener("dragstart", handler, false);
         });
 
@@ -590,7 +590,7 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
             if (SFRPG.starshipDefinitionItemTypes.includes(rawItemData.type)) {
                 return this.actor.createEmbeddedDocuments("Item", [rawItemData]);
             } else if (this.acceptedItemTypes.includes(rawItemData.type)) {
-                return this.processDroppedData(event, data);
+                return this.processDroppedItems(event, data);
             } else {
                 ui.notifications.error(game.i18n.format("SFRPG.InvalidStarshipItem", { name: rawItemData.name }));
                 return false;
@@ -616,7 +616,7 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
             if (acceptedItems.length > 0) {
                 const acceptedItemData = foundry.utils.deepClone(data);
                 acceptedItemData.items = acceptedItems;
-                await this.processDroppedData(event, data);
+                await this.processDroppedItems(event, data);
             }
 
             if (rejectedItems.length > 0) {
@@ -688,6 +688,7 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
      * @param {Event} event Originating dragstart event
      */
     _onDragCrewStart(event) {
+        if (this.actor.system.crew.useNPCCrew) return;
         const actorId = event.currentTarget.dataset.actorId;
         const actor = game.actors.get(actorId);
 
@@ -772,7 +773,7 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
             const summary = li.children('.item-summary');
             summary.slideUp(200, () => summary.remove());
         } else {
-            const desiredDescription = await TextEditor.enrichHTML(content || chatData.description.value, {
+            const desiredDescription = await foundry.applications.ux.TextEditor.enrichHTML(content || chatData.description.value, {
                 async: true,
                 rollData: this.actor.getRollData() ?? {},
                 secrets: this.actor.isOwner

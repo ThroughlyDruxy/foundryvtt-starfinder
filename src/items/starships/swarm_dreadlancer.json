@@ -3,22 +3,22 @@
   "name": "Swarm Dreadlancer",
   "type": "starship",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/starfighter.svg",
   "items": [
     {
       "_id": "YWoPW6nZQZlkwnB7",
       "name": "Huge Starship Monstrous Humanoid",
       "type": "starshipFrame",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/hexagonal-nut.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -96,9 +96,9 @@
       "name": "Heavy Shields 240",
       "type": "starshipShield",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
       "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
       "system": {
@@ -138,11 +138,11 @@
       "name": "Nova Ultra",
       "type": "starshipPowerCore",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/power-generator.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -180,11 +180,11 @@
       "name": "Signal Basic",
       "type": "starshipDriftEngine",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/star-gate.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -218,11 +218,11 @@
       "name": "M6 thrusters",
       "type": "starshipThruster",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/rocket-thruster.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -275,11 +275,11 @@
       "name": "Advanced medium-range sensors",
       "type": "starshipSensor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/radar-dish.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -314,11 +314,11 @@
       "name": "Common crew quarters",
       "type": "starshipCrewQuarter",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bunk-beds.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -350,11 +350,11 @@
       "name": "Mk 2 tetranode",
       "type": "starshipComputer",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/server-rack.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -388,11 +388,11 @@
       "name": "Mk 6 defenses",
       "type": "starshipDefensiveCountermeasure",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bubble-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -426,11 +426,11 @@
       "name": "Mk 8 armor",
       "type": "starshipArmor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/metal-scales.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -466,11 +466,11 @@
       "name": "Guest quarters",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -502,11 +502,11 @@
       "name": "Guest quarters",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -538,11 +538,11 @@
       "name": "Shuttle bay",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -574,11 +574,11 @@
       "name": "Fleet Mind (Ex)",
       "type": "starshipSpecialAbility",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/cpu.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -605,11 +605,11 @@
       "name": "Living Starship (Ex)",
       "type": "starshipSpecialAbility",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/cpu.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -636,11 +636,11 @@
       "name": "Void Adaptation (Ex)",
       "type": "starshipSpecialAbility",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/cpu.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -667,11 +667,11 @@
       "name": "Super plasma cannon",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -799,11 +799,11 @@
       "name": "Micromissile battery",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -931,11 +931,11 @@
       "name": "Micromissile battery",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1063,11 +1063,11 @@
       "name": "Particle beam",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1207,7 +1207,6 @@
     "displayName": 20,
     "disposition": 0,
     "height": 1,
-    "hexagonalShape": 0,
     "light": {
       "alpha": 0.5,
       "angle": 360,
@@ -1234,6 +1233,7 @@
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
     "occludable": {
       "radius": 0
     },
@@ -1273,8 +1273,14 @@
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
-      "src": "icons/svg/mystery-man.svg",
+      "src": "systems/sfrpg/icons/default/starfighter.svg",
       "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 1
   },

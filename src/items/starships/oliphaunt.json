@@ -3,22 +3,22 @@
   "name": "Oliphaunt",
   "type": "starship",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/starfighter.svg",
   "items": [
     {
       "_id": "ilyhfv3ARXjC5nFF",
       "name": "M12 thrusters",
       "type": "starshipThruster",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/rocket-thruster.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -46,6 +46,7 @@
         "pcu": 80,
         "pilotingModifier": -1,
         "source": "CRB pg. 297",
+        "specialMaterials": {},
         "speed": 12,
         "supportedSize": "medium"
       }
@@ -55,11 +56,11 @@
       "name": "Medium Shields 90",
       "type": "starshipShield",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/forward-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -97,11 +98,11 @@
       "name": "High explosive missile launcher",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -198,6 +199,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 12,
         "weaponType": "tracking"
       }
@@ -207,11 +209,11 @@
       "name": "Chain cannon",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -308,6 +310,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 0,
         "weaponType": "direct"
       }
@@ -317,11 +320,11 @@
       "name": "Pulse Black",
       "type": "starshipPowerCore",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/power-generator.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -346,6 +349,7 @@
         "modifiers": [],
         "pcu": 120,
         "source": "CRB pg. 296",
+        "specialMaterials": {},
         "supportedSizes": [
           "tiny",
           "small"
@@ -357,11 +361,11 @@
       "name": "Signal Basic",
       "type": "starshipDriftEngine",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/star-gate.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -395,11 +399,11 @@
       "name": "Basic computer",
       "type": "starshipComputer",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/server-rack.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -433,11 +437,11 @@
       "name": "Basic medium-range sensors",
       "type": "starshipSensor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/radar-dish.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -463,7 +467,8 @@
         "modifiers": [],
         "pcu": null,
         "range": "medium",
-        "source": "CRB pg. 301"
+        "source": "CRB pg. 301",
+        "specialMaterials": {}
       }
     },
     {
@@ -471,11 +476,11 @@
       "name": "Common crew quarters",
       "type": "starshipCrewQuarter",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bunk-beds.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -507,11 +512,11 @@
       "name": "Mk 3 defenses",
       "type": "starshipDefensiveCountermeasure",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bubble-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -536,6 +541,7 @@
         "modifiers": [],
         "pcu": 2,
         "source": "CRB pg. 297",
+        "specialMaterials": {},
         "targetLockBonus": 3
       }
     },
@@ -544,11 +550,11 @@
       "name": "Mk 1 armor",
       "type": "starshipArmor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/metal-scales.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -574,6 +580,7 @@
         "modifiers": [],
         "pcu": null,
         "source": "CRB pg. 297",
+        "specialMaterials": {},
         "targetLockPenalty": 0,
         "turnDistancePenalty": 0
       }
@@ -583,11 +590,11 @@
       "name": "Arcane laboratory",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -619,11 +626,11 @@
       "name": "Null-Space Cargo hold",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -642,7 +649,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GMâ€™s discretion.</p>"
+          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GM’s discretion.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -655,11 +662,11 @@
       "name": "Null-Space Cargo hold",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -678,7 +685,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GMâ€™s discretion.</p>"
+          "value": "<p>Unconverted expansion bays count as cargo holds. A cargo hold can contain approximately 25 tons of goods, with no item being larger than Large. A starship with multiple cargo holds can hold larger objects; usually 4 contiguous cargo holds are required to hold Huge objects and 8 for Gargantuan objects. These size restrictions can be overridden at the GM’s discretion.</p>"
         },
         "isPowered": true,
         "modifiers": [],
@@ -691,11 +698,11 @@
       "name": "Recreation suite (HAC)",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -727,11 +734,11 @@
       "name": "Tech workshop",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -763,16 +770,11 @@
       "name": "Transport",
       "type": "starshipFrame",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.sfrpg.starship-components.Item.hMSu9GvYuD6jacCw"
-        }
-      },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/hexagonal-nut.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -882,12 +884,30 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
+    "occludable": {
+      "radius": 0
+    },
     "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -901,13 +921,23 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
-      "src": "icons/svg/mystery-man.svg",
-      "tint": null
+      "src": "systems/sfrpg/icons/default/starfighter.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 1
   },

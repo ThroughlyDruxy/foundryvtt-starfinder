@@ -3,22 +3,22 @@
   "name": "Death's Curtain Necrofighter",
   "type": "starship",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/starfighter.svg",
   "items": [
     {
       "_id": "dYgXz5LMvjA3yEiZ",
       "name": "Fighter",
       "type": "starshipFrame",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/hexagonal-nut.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -116,11 +116,11 @@
       "name": "T12 thrusters",
       "type": "starshipThruster",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/rocket-thruster.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -158,11 +158,11 @@
       "name": "Basic Shields 30",
       "type": "starshipShield",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/forward-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -200,11 +200,11 @@
       "name": "Light particle beam",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -326,11 +326,11 @@
       "name": "Light plasma torpedo launcher",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -452,11 +452,11 @@
       "name": "Micron Ultra",
       "type": "starshipPowerCore",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/power-generator.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -492,11 +492,11 @@
       "name": "Basic short-range sensors",
       "type": "starshipSensor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/radar-dish.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -531,11 +531,11 @@
       "name": "Mk 1 duonode",
       "type": "starshipComputer",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/server-rack.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -569,11 +569,11 @@
       "name": "Mk 4 armor",
       "type": "starshipArmor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/metal-scales.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -609,11 +609,11 @@
       "name": "Mk 3 defenses",
       "type": "starshipDefensiveCountermeasure",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bubble-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -647,6 +647,7 @@
     "name": "Death's Curtain Necrofighter",
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -678,11 +679,30 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -696,13 +716,23 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
-      "src": "icons/svg/mystery-man.svg",
-      "tint": null
+      "src": "systems/sfrpg/icons/default/starfighter.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 1
   },

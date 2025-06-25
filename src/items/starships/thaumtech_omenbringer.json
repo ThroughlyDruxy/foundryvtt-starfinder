@@ -3,22 +3,22 @@
   "name": "Thaumtech Omenbringer",
   "type": "starship",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/starfighter.svg",
   "items": [
     {
       "_id": "3GiE3b2MBTtFt9eM",
       "name": "CRB, p.307",
       "type": "starshipFrame",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/hexagonal-nut.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -96,11 +96,11 @@
       "name": "G4 thrusters",
       "type": "starshipThruster",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/rocket-thruster.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -128,6 +128,7 @@
         "pcu": 120,
         "pilotingModifier": 2,
         "source": "CRB pg. 297",
+        "specialMaterials": {},
         "speed": 4,
         "supportedSize": "gargantuan"
       }
@@ -137,11 +138,11 @@
       "name": "Heavy Shields 240",
       "type": "starshipShield",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/forward-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -179,11 +180,11 @@
       "name": "Heavy laser cannon",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -280,6 +281,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 0,
         "weaponType": "direct"
       }
@@ -289,11 +291,11 @@
       "name": "Super EMP cannon",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -390,6 +392,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 0,
         "weaponType": "direct"
       }
@@ -399,11 +402,11 @@
       "name": "Heavy laser array",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -500,6 +503,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 0,
         "weaponType": "direct"
       }
@@ -509,11 +513,11 @@
       "name": "Heavy laser array",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -610,6 +614,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 0,
         "weaponType": "direct"
       }
@@ -619,11 +624,11 @@
       "name": "Tactical nuclear missile launcher",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -720,6 +725,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 10,
         "weaponType": "tracking"
       }
@@ -729,11 +735,11 @@
       "name": "Heavy torpedo launcher",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -830,6 +836,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 14,
         "weaponType": "tracking"
       }
@@ -839,11 +846,11 @@
       "name": "Heavy torpedo launcher",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -940,6 +947,7 @@
           "volatile": false,
           "vortex": false
         },
+        "specialMaterials": {},
         "speed": 14,
         "weaponType": "tracking"
       }
@@ -949,11 +957,11 @@
       "name": "Gateway Heavy",
       "type": "starshipPowerCore",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/power-generator.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -978,6 +986,7 @@
         "modifiers": [],
         "pcu": 400,
         "source": "CRB pg. 296",
+        "specialMaterials": {},
         "supportedSizes": [
           "large",
           "huge",
@@ -990,11 +999,11 @@
       "name": "Signal Basic",
       "type": "starshipDriftEngine",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/star-gate.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1028,11 +1037,11 @@
       "name": "Advanced medium-range sensors",
       "type": "starshipSensor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/radar-dish.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1058,7 +1067,8 @@
         "modifiers": [],
         "pcu": null,
         "range": "medium",
-        "source": "CRB pg. 301"
+        "source": "CRB pg. 301",
+        "specialMaterials": {}
       }
     },
     {
@@ -1066,11 +1076,11 @@
       "name": "Basic computer",
       "type": "starshipComputer",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/server-rack.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1104,11 +1114,11 @@
       "name": "Common crew quarters",
       "type": "starshipCrewQuarter",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bunk-beds.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1140,11 +1150,11 @@
       "name": "Mk 7 armor",
       "type": "starshipArmor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/metal-scales.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1170,6 +1180,7 @@
         "modifiers": [],
         "pcu": null,
         "source": "CRB pg. 297",
+        "specialMaterials": {},
         "targetLockPenalty": -1,
         "turnDistancePenalty": 0
       }
@@ -1179,11 +1190,11 @@
       "name": "Mk 8 defenses",
       "type": "starshipDefensiveCountermeasure",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bubble-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1208,6 +1219,7 @@
         "modifiers": [],
         "pcu": 9,
         "source": "CRB pg. 297",
+        "specialMaterials": {},
         "targetLockBonus": 8
       }
     },
@@ -1216,11 +1228,11 @@
       "name": "Biometric locks",
       "type": "starshipSecuritySystem",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cctv-camera.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1239,7 +1251,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>The systems of a starship with biometric locks can only be used by certain creatures, designated when the locks are installed; this list can be updated by any creature who can gain access to the shipâ€™s computer systems. A successful Computers check (DC = 20 + 1-1/2 Ã— the tier of the starship) can bypass these locks.</p>"
+          "value": "<p>The systems of a starship with biometric locks can only be used by certain creatures, designated when the locks are installed; this list can be updated by any creature who can gain access to the ship’s computer systems. A successful Computers check (DC = 20 + 1-1/2 Ã— the tier of the starship) can bypass these locks.</p>"
         },
         "isPowered": false,
         "modifiers": [],
@@ -1252,11 +1264,11 @@
       "name": "Hanger bay",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1288,11 +1300,11 @@
       "name": "Hanger bay",
       "type": "starshipExpansionBay",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -1323,12 +1335,15 @@
   "prototypeToken": {
     "name": "Thaumtech Omenbringer",
     "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
       "attribute": "attributes.shields"
     },
+    "detectionModes": [],
     "displayBars": 20,
     "displayName": 20,
     "disposition": 0,
@@ -1353,15 +1368,31 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
-    "mirrorX": false,
-    "mirrorY": false,
+    "movementAction": null,
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
-    "scale": 1,
     "sight": {
       "angle": 360,
       "attenuation": 0.1,
@@ -1374,12 +1405,23 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
-      "tint": null
+      "src": "systems/sfrpg/icons/default/starfighter.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 1
   },

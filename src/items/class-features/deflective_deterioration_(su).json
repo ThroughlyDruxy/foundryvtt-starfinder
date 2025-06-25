@@ -3,9 +3,9 @@
   "name": "Deflective Deterioration (Su)",
   "type": "feat",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
   "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
   "system": {
@@ -23,6 +23,7 @@
     },
     "area": {
       "effect": "",
+      "shapable": false,
       "shape": "",
       "units": "",
       "value": 0
@@ -47,6 +48,7 @@
     "descriptors": [],
     "details": {
       "category": "classFeature",
+      "combat": false,
       "specialAbilityType": "su"
     },
     "duration": {
@@ -87,6 +89,7 @@
         "valueAffected": "both"
       }
     ],
+    "properties": {},
     "range": {
       "additional": "",
       "per": "",

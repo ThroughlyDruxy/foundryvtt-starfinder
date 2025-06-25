@@ -3,11 +3,11 @@
   "name": "Blaze scimitar, acolyte",
   "type": "weapon",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/bolter-gun.svg",
   "system": {
     "type": "",
     "ability": "str",
@@ -24,6 +24,7 @@
     "ammunitionType": "charge",
     "area": {
       "effect": "",
+      "shapable": false,
       "shape": "",
       "units": "",
       "value": 0
@@ -104,6 +105,7 @@
         }
       ]
     },
+    "damageNotes": "",
     "description": {
       "chat": "",
       "gmnotes": "",
@@ -116,11 +118,13 @@
       "units": "",
       "value": null
     },
-    "equippable": false,
+    "equippable": true,
     "equipped": false,
+    "equippedBulkMultiplier": 1,
     "formula": "",
     "identified": true,
     "isActive": null,
+    "isEquipment": true,
     "level": 2,
     "modifiers": [],
     "price": 740,
@@ -224,6 +228,7 @@
       "units": "",
       "value": null
     },
+    "rollNotes": "",
     "save": {
       "type": "",
       "dc": "",
@@ -231,6 +236,7 @@
     },
     "source": "TR pg. 60, AP #13 pg. 52",
     "special": "",
+    "specialMaterials": {},
     "target": {
       "type": "",
       "value": null

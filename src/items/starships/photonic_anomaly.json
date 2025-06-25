@@ -3,22 +3,22 @@
   "name": "Photonic Anomaly",
   "type": "starship",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/starfighter.svg",
   "items": [
     {
       "_id": "3YG9EdiDrPs9UwDq",
       "name": "Huge Starship Ooze",
       "type": "starshipFrame",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/hexagonal-nut.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -96,11 +96,11 @@
       "name": "Light Shields 60",
       "type": "starshipShield",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/forward-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -138,11 +138,11 @@
       "name": "Persistent particle beam",
       "type": "starshipWeapon",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/strafe.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -264,11 +264,11 @@
       "name": "Mk 4 armor",
       "type": "starshipArmor",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/metal-scales.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -304,11 +304,11 @@
       "name": "Mk 4 defenses",
       "type": "starshipDefensiveCountermeasure",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/bubble-field.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -342,11 +342,11 @@
       "name": "Photonic Core",
       "type": "starshipPowerCore",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/power-generator.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -395,11 +395,11 @@
       "name": "H8 (See Quantum Movement)",
       "type": "starshipThruster",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/mystery-man.svg",
+      "img": "systems/sfrpg/icons/default/rocket-thruster.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -452,11 +452,11 @@
       "name": "Living Starship (Ex)",
       "type": "starshipSpecialAbility",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/cpu.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -473,7 +473,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>A photonic anomaly is a living creature so immense that it functions as a starship (and thus engages only in starship combat). It has no crew, but it can still take engineer, gunner, and pilot actions using the skill bonuses, ranks, and level listed above. Modifiers for its size, speed, and maneuverability have already been factored into its statistics. Critical damage is rolled so that results are applied as follows (with normal effects per the table @UUID[Compendium.sfrpg.tables.RkDign75n1xFBsdK]{here}): 1–33, weapons array; 34–66, engines; 67–100, power core.</p>"
+          "value": "<p>A photonic anomaly is a living creature so immense that it functions as a starship (and thus engages only in starship combat). It has no crew, but it can still take engineer, gunner, and pilot actions using the skill bonuses, ranks, and level listed above. Modifiers for its size, speed, and maneuverability have already been factored into its statistics. Critical damage is rolled so that results are applied as follows (with normal effects per the table @UUID[Compendium.sfrpg.tables.Item.RkDign75n1xFBsdK]{here}): 1–33, weapons array; 34–66, engines; 67–100, power core.</p>"
         },
         "source": ""
       }
@@ -483,11 +483,11 @@
       "name": "Lockdown (Ex)",
       "type": "starshipSpecialAbility",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/cpu.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -504,7 +504,7 @@
           "gmnotes": "",
           "short": "",
           "unidentified": "",
-          "value": "<p>If a science officer successfully uses the @UUID[Compendium.sfrpg.starship-actions.ML6Dh5dRr3XItvZx]{Lock On} crew action against a photonic anomaly before it moves, the creature’s quantum movement is temporarily disabled, and it can’t move during that round.</p>"
+          "value": "<p>If a science officer successfully uses the @UUID[Compendium.sfrpg.starship-actions.Item.ML6Dh5dRr3XItvZx]{Lock On} crew action against a photonic anomaly before it moves, the creature’s quantum movement is temporarily disabled, and it can’t move during that round.</p>"
         },
         "source": ""
       }
@@ -514,11 +514,11 @@
       "name": "Quantum Movement (Ex)",
       "type": "starshipSpecialAbility",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/cpu.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -545,11 +545,11 @@
       "name": "Solar Defenses (Ex)",
       "type": "starshipSpecialAbility",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/cpu.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -576,11 +576,11 @@
       "name": "Solar Adaptation (Ex)",
       "type": "starshipSpecialAbility",
       "_stats": {
-        "coreVersion": 12,
+        "coreVersion": 13,
         "systemId": "sfrpg",
-        "systemVersion": "0.26.1"
+        "systemVersion": "0.28.1"
       },
-      "img": "icons/svg/item-bag.svg",
+      "img": "systems/sfrpg/icons/default/cpu.svg",
       "system": {
         "type": "",
         "abilityMods": {
@@ -607,6 +607,7 @@
     "name": "Photonic Anomaly",
     "actorLink": false,
     "alpha": 1,
+    "appendNumber": false,
     "bar1": {
       "attribute": "attributes.hp"
     },
@@ -638,11 +639,30 @@
       },
       "dim": 0,
       "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
       "saturation": 0,
       "shadows": 0
     },
     "lockRotation": false,
+    "movementAction": null,
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
     "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
     "rotation": 0,
     "sight": {
       "angle": 360,
@@ -656,13 +676,23 @@
       "visionMode": "basic"
     },
     "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
       "offsetX": 0,
       "offsetY": 0,
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
-      "src": "icons/svg/mystery-man.svg",
-      "tint": null
+      "src": "systems/sfrpg/icons/default/starfighter.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
     },
     "width": 1
   },

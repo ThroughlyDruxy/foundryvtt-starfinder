@@ -3,11 +3,11 @@
   "name": "Light Inferno Core",
   "type": "starshipPowerCore",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/sfrpg/icons/default/power-generator.svg",
   "system": {
     "type": "",
     "abilityMods": {

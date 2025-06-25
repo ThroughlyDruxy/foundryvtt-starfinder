@@ -3,11 +3,11 @@
   "name": "Budget medium-range sensors",
   "type": "starshipSensor",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/radar-dish.svg",
   "system": {
     "type": "",
     "abilityMods": {
@@ -23,6 +23,8 @@
     },
     "description": {
       "chat": "",
+      "gmnotes": "",
+      "short": "",
       "unidentified": "",
       "value": ""
     },
@@ -31,6 +33,7 @@
     "modifiers": [],
     "pcu": null,
     "range": "medium",
-    "source": "CRB pg. 301"
+    "source": "CRB pg. 301",
+    "specialMaterials": {}
   }
 }

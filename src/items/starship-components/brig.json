@@ -3,11 +3,11 @@
   "name": "Brig",
   "type": "starshipExpansionBay",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/cardboard-box-closed.svg",
   "system": {
     "type": "",
     "abilityMods": {
@@ -23,6 +23,8 @@
     },
     "description": {
       "chat": "",
+      "gmnotes": "",
+      "short": "",
       "unidentified": "",
       "value": "<p>A brig contains all the necessary restraints and security systems to incarcerate up to eight Medium creatures.</p>"
     },

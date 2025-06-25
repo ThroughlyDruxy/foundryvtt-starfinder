@@ -3,9 +3,9 @@
   "name": "Speed suspension, standard",
   "type": "augmentation",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
   "img": "icons/commodities/bones/bone-joint-tan.webp",
   "system": {
@@ -78,6 +78,7 @@
     },
     "equippable": true,
     "equipped": false,
+    "equippedBulkMultiplier": 1,
     "formula": "",
     "identified": true,
     "isActive": null,
@@ -100,6 +101,7 @@
       }
     ],
     "price": 8800,
+    "properties": {},
     "quantity": 1,
     "quantityPerPack": 1,
     "range": {

@@ -3,9 +3,9 @@
   "name": "Vivara rifle, low-flux",
   "type": "weapon",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
   "img": "systems/sfrpg/icons/equipment/weapons/pulsecaster-rifle.webp",
   "system": {
@@ -24,6 +24,7 @@
     "ammunitionType": "roundL",
     "area": {
       "effect": "",
+      "shapable": false,
       "shape": "",
       "units": "none",
       "value": null
@@ -120,9 +121,11 @@
     },
     "equippable": true,
     "equipped": false,
+    "equippedBulkMultiplier": 1,
     "formula": "",
     "identified": true,
     "isActive": null,
+    "isEquipment": true,
     "level": 4,
     "modifiers": [],
     "price": 2100,

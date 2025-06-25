@@ -3,16 +3,18 @@
   "name": "Shoot",
   "type": "starshipAction",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/crosshair.svg",
   "system": {
     "type": "",
     "dc": null,
     "description": {
       "chat": "",
+      "gmnotes": "",
+      "short": "",
       "unidentified": "",
       "value": "<h2>Normal effect</h2><p>You can fire one of your starship’s weapons. If you use a turret weapon, you can target a ship in any arc.</p>"
     },

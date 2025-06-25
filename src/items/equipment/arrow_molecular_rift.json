@@ -3,9 +3,9 @@
   "name": "Arrow, molecular rift",
   "type": "goods",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
   "img": "icons/weapons/ammunition/arrows-war-red.webp",
   "system": {
@@ -48,6 +48,7 @@
     },
     "equippable": false,
     "equipped": false,
+    "equippedBulkMultiplier": 1,
     "identified": true,
     "level": 18,
     "modifiers": [
@@ -69,6 +70,7 @@
     ],
     "price": 53700,
     "quantity": 1,
+    "quantityPerPack": 1,
     "source": "AR pg. 55"
   }
 }

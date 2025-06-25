@@ -3,11 +3,11 @@
   "name": "Ace Pilot",
   "type": "theme",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/default/plane-pilot.svg",
   "system": {
     "type": "",
     "abilityMod": {

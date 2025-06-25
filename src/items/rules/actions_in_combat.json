@@ -2,10 +2,11 @@
   "_id": "U37n5tY5hn1ctzQL",
   "name": "Actions in Combat",
   "_stats": {
-    "coreVersion": 12,
+    "coreVersion": 13,
     "systemId": "sfrpg",
-    "systemVersion": "0.26.1"
+    "systemVersion": "0.28.1"
   },
+  "categories": [],
   "folder": "JrwTQoQtfFTCzYwQ",
   "pages": [
     {
@@ -13,13 +14,17 @@
       "name": "Actions in Combat",
       "type": "text",
       "_stats": {
-        "coreVersion": null,
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": null,
         "modifiedTime": null,
         "systemId": null,
         "systemVersion": null
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
@@ -47,13 +52,17 @@
       "name": "Standard Actions",
       "type": "text",
       "_stats": {
-        "coreVersion": null,
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": null,
         "modifiedTime": null,
         "systemId": null,
         "systemVersion": null
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
@@ -81,13 +90,17 @@
       "name": "Move Actions",
       "type": "text",
       "_stats": {
-        "coreVersion": null,
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": null,
         "modifiedTime": null,
         "systemId": null,
         "systemVersion": null
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
@@ -115,13 +128,17 @@
       "name": "Swift Actions",
       "type": "text",
       "_stats": {
-        "coreVersion": null,
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": null,
         "modifiedTime": null,
         "systemId": null,
         "systemVersion": null
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
@@ -149,13 +166,17 @@
       "name": "Full Actions",
       "type": "text",
       "_stats": {
-        "coreVersion": null,
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": null,
         "modifiedTime": null,
         "systemId": null,
         "systemVersion": null
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
@@ -183,13 +204,17 @@
       "name": "Reactions",
       "type": "text",
       "_stats": {
-        "coreVersion": null,
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": null,
         "modifiedTime": null,
         "systemId": null,
         "systemVersion": null
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
@@ -217,13 +242,17 @@
       "name": "Other Actions",
       "type": "text",
       "_stats": {
-        "coreVersion": null,
+        "compendiumSource": null,
+        "coreVersion": "13.345",
         "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
         "lastModifiedBy": null,
         "modifiedTime": null,
         "systemId": null,
         "systemVersion": null
       },
+      "category": null,
       "flags": {},
       "image": {},
       "ownership": {
